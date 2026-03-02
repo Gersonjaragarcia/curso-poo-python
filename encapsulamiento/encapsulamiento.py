@@ -14,4 +14,11 @@ class Carro:
         self.marca = marca
         self.__modelo = modelo  # atributo privado
         
+    def get_modelo(self):
+        return self.__modelo
+        
 carro1 = Carro("Toyota", 2020)
+carro1.__modelo = 3000 # atrivuto creado por fuera
+
+print(carro1.__modelo)
+print(carro1.get_modelo())
