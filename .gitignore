@@ -1,0 +1,4 @@
+# Archivo específico a ignorar
+Makdow.txt 
+# Extensiones de texto generales (opcional, si no quieres ningún .txt)
+*.txt
